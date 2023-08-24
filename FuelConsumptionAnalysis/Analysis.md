@@ -505,7 +505,7 @@ of 'Premium Gasoline' is **276.33**(in grams/km). Now, we will look at
  not overlap with the top of the shorter error bar (Regular gasoline)
  which gives us that the two groups are significantly different.**
 
- **Summary of Fuel Consumption Ratings 2022 Analysis**
+ # **Summary of Fuel Consumption Ratings 2022 Analysis**
 
  In this analysis of fuel consumption ratings from 2022, the research
  delved into a dataset obtained from Kaggle.com. With 716 unique
