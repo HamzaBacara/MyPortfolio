@@ -2,7 +2,6 @@
 
 # **Fuel Consumption Ratings 2022**
 
-**Hamza Bacara**
 
 
 
