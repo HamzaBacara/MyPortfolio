@@ -1,21 +1,17 @@
-**Czech University of Life Sciences**
 
-**Faculty of Economics and Management**
-
-![Logo Description automatically
-generated](media/image1.gif){width="6.3in" height="4.2in"}
 
 **Fuel Consumption Ratings 2022**
 
 **Hamza Bacara**
 
-**Fuel Consumption Ratings 2022**
+
 
 I Have obtained our data from "Kaggle.com". Data has quantitative and
 qualitative data. We have downloaded the .csv file and cleansed the data
 such as deleting duplicate values using excel, below there is the
 previous version of the data that is not cleaned you can see it as the
 excel version.
+
 <img src="./images/sourceData.png" alt=""/>
 
 We have 716 unique values in column "Model" to comply with project
