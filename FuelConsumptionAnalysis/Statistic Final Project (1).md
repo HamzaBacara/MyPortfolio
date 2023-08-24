@@ -15,7 +15,7 @@ I Have obtained our data from "Kaggle.com". Data has quantitative and
 qualitative data. We have downloaded the .csv file and cleansed the data
 such as deleting duplicate values using excel, below there is the
 previous version of the data that is not cleaned you can see it as the
-excel version.<img src="./images/sourceData.png" alt="" width="6.291666666666667in" height="1.9166666666666667in"/>
+excel version.<img src="./images/sourceData.png" alt=""/>
 
 We have 716 unique values in column "Model" to comply with project
 requirements.
@@ -74,7 +74,7 @@ variables. We ended up with 14 variables and 6 quantitative data. We
 have uploaded our dataset from excel to SPSS 28 environment and we have
 edited our data according to our project requirements.
 
-<img src="./images/dataPreparation.png" alt="Description of Image" width="6.291666666666667in" height="1.9166666666666667in"/>
+<img src="./images/dataPreparation.png" alt="Description of Image" />
 
 
 Below, we have added values to Co2 Rating and Smog rating variables, and
@@ -82,7 +82,7 @@ we have changed some of the Label names. Due to project requirements, we
 have enough quantitative variables which is good enough for descriptive
 tests and hypothesis tests.
 
-<img src="./images/dataPreparation2.png" alt="Description of Image" width="6.291666666666667in" height="1.9166666666666667in"/>
+<img src="./images/dataPreparation2.png" alt="Description of Image" />
 
 
 Above, we have changed *Co2 Rating*, and *Smog Rating* column from
@@ -96,7 +96,7 @@ these columns depending on Fuel types.
 
 Firstly, let us see Simple Histogram for **Combined Fuel Consumption**
 
-<img src="./images/combinedFuelConsumption.png" alt="Chart, histogram " width="6.2965277777777775in" height="3.7131944444444445in"/>
+<img src="./images/combinedFuelConsumption.png" alt="Chart, histogram "/>
 
 
 Above we see the Combined Fuel consumption, we can say that the
@@ -113,8 +113,8 @@ analysis.
 **Let us make comparison between City and Highway consumption for SUV:
 Small vehicle class**
 
-<img src="./images/highwayConsumption.png" alt="Highway consumption by frequency histogram" width="6.291666666666667in" height="1.9166666666666667in"/>
-<img src="./images/urbanConsumption.png" alt="Urban consumption by frequency histogram" width="6.291666666666667in" height="1.9166666666666667in"/>
+<img src="./images/highwayConsumption.png" alt="Highway consumption by frequency histogram"/>
+<img src="./images/urbanConsumption.png" alt="Urban consumption by frequency histogram" />
 
 For Highway Consumption we have average fuel consumption of 8.39 and
 standard deviation of 1.345 out of 153 observations. We have 2 extreme
@@ -142,7 +142,7 @@ because it is not at a constant speed.
 **We assume this information is correct depending on our Histograms
 regarding our dataset.**
 
--   <img src="./images/urbanconsumptionANDhighway.png" alt="Urban Consumption and highway for regular gasoline" width="6.291666666666667in" height="1.9166666666666667in"/> <img src="./images/urbanConsumptionANDhighway2.png" alt="Description of Image" width="6.291666666666667in" height="1.9166666666666667in"/>
+  <img src="./images/urbanconsumptionANDhighway.png" alt="Urban Consumption and highway for regular gasoline" /> <img src="./images/urbanConsumptionANDhighway2.png" alt="Description of Image" />
 
 
 As we can see in the above. Highway consumption have 8.6 average
@@ -160,34 +160,34 @@ gasoline Fuel Type.
 
 -   Urban Consumption and Highway consumption for Premium Gasoline:
 
-> <img src="./images/premiumgasolineHighway.png" alt="Urban consumption by premium gasoline" width="6.291666666666667in" height="1.9166666666666667in"/>
-><img src="./images/premiumgasolineUrban.png" alt="Highway consumption by premium gasoline" width="6.291666666666667in" height="1.9166666666666667in"/>
-> For Urban Consumption Average Consumption is 13.51, also it is
-> positively skewed, there are 4 extreme values and a Standard deviation
-> of 3.35. We have 3 peaks.
->
-> For Highway Consumption Average consumption is 9.73, and the standard
-> deviation is 2.01 out of 386 observations. We have 2 peaks. We can say
-> that by visual analysis that our
->
-> With this comparison, we understand that City consumption is higher
-> than Highway consumption using Premium Gasoline Fuel Type. We have
-> provided a piece of information on what causes this at the beginning
-> of comparison.
+ <img src="./images/premiumgasolineHighway.png" alt="Urban consumption by premium gasoline"/>
+<img src="./images/premiumgasolineUrban.png" alt="Highway consumption by premium gasoline" />
+ For Urban Consumption Average Consumption is 13.51, also it is
+ positively skewed, there are 4 extreme values and a Standard deviation
+ of 3.35. We have 3 peaks.
+
+For Highway Consumption Average consumption is 9.73, and the standard
+ deviation is 2.01 out of 386 observations. We have 2 peaks. We can say
+ that by visual analysis that our
+
+ With this comparison, we understand that City consumption is higher
+ than Highway consumption using Premium Gasoline Fuel Type. We have
+ provided a piece of information on what causes this at the beginning
+ of comparison.
 
 -   Urban Consumption and Highway consumption for Diesel:
 
     -   Unfortunately, due to the lack of data in our dataset, we cannot
         make enough observations or assumptions.
 
-> **Summary:**
->
-> Depending on each observation we made, we are confident that overall
-> Urban(city) consumptions are higher than Highway consumptions
-> regarding Fuel Type's.
+**Summary:**
+
+Depending on each observation we made, we are confident that overall
+Urban(city) consumptions are higher than Highway consumptions
+ regarding Fuel Type's.
 
 Let us Compare Fuel Type's by their Co2 Emissions using box
-plot<img src="./images/Fuel Type’s by their Co2 Emissions.png" alt="" width="6.291666666666667in" height="1.9166666666666667in"/>
+plot<img src="./images/Fuel Type’s by their Co2 Emissions.png" alt="" />
 
 1.  **Comparing:**
 
@@ -232,7 +232,7 @@ that Diesel has high Co2 Emission by its range in other words Diesel has
 less usage, however, high Co2 emissions regarding its usage.
 
 **Finally, we can see our Pie chart for Co2 emissions with Co2 ratings**
-<img src="./images/Pie chart for Co2 emissions.png" alt="" width="6.291666666666667in" height="1.9166666666666667in"/>
+<img src="./images/Pie chart for Co2 emissions.png" alt="" />
 
 As we can see from our pie chart, we have defined Total Co2 emissions
 from our population and total Co2 ratios. We can clearly see that the
@@ -251,7 +251,7 @@ Co2 Emission.
 and later let us compare both population pie charts regarding Co2
 Emissions.**
 
-<img src="./images/Regular gasoline and Premium gasoline.png" alt="" width="6.291666666666667in" height="1.9166666666666667in"/>
+<img src="./images/Regular gasoline and Premium gasoline.png" alt="" />
 
 As we can see from the Pie chart for premium gasoline, it has a "Bad"
 rating of 52.07 percent in terms of Co2 values and emissions. We can
@@ -259,7 +259,7 @@ understand that Vehicles using Premium Gas have bad ratings overall, but
 we can see visual data showing us that 32.81 percent which is the
 minority have a "Normal" rating, which means there are Co2 emissions
 that we can consider not so bad, regardless of engine
-size.<img src="./images/pieChartRegularGasoline.png" alt="" width="6.291666666666667in" height="1.9166666666666667in"/>
+size.<img src="./images/pieChartRegularGasoline.png" alt="" />
 
 Regarding vehicles that use Regular gasoline, our Co2 Ratings show us
 that the Majority of 43.36% percent is "Normal". It is followed by a
@@ -290,7 +290,7 @@ the scatterplots of our variables to get an idea of what to expect. We
 need to determine if its reasonable to assume that our variables have
 linear relationships.
 
-<img src="./images/scatterplotEngine.png" alt="" width="6.291666666666667in" height="1.9166666666666667in"/>
+<img src="./images/scatterplotEngine.png" alt=""/>
 
 In the picture above, we can see that as Combined Consumption increases,
 also Engine size tends to increase. There does appear to be some
@@ -333,7 +333,7 @@ relationship, while the magnitude of the correlation (how close it is to
 Above, in the scatter plot we assumed there is some linear relationship,
 let us support if this relationship is strong or not.
 
-<img src="./images/strongOrNot.png" alt="" width="6.291666666666667in" height="1.9166666666666667in"/>
+<img src="./images/strongOrNot.png" alt=""/>
 
 As we can see in the Combined Consumption(L/100km) Row, we have
 **Pearson correlation for Combined consumption (with itself) is 1**,
@@ -389,7 +389,7 @@ IBM SPSS. This will be conducting a two tailed with the alpha value of
 
 Before we make sample t-test let us create a histogram of the data to
 get an idea of the distribution, and to see if our hypothesized mean is
-near our sample mean.<img src="./images/oneSampleTtest.png" alt="" width="6.291666666666667in" height="1.9166666666666667in"/>
+near our sample mean.<img src="./images/oneSampleTtest.png" alt=""/>
 
 From the histogram, we can see that combined consumption is relatively
 symmetrically distributed about the mean, though there is a slightly
@@ -403,7 +403,7 @@ H0: Combined Fuel Consumption = 9.44 L/km
 
 H1: Combined Fuel Consumption != 9.44 L/km
 
-<img src="./images/oneSampleStatistics.png" alt="" width="6.291666666666667in" height="1.9166666666666667in"/>
+<img src="./images/oneSampleStatistics.png" alt="" />
 We can see from One-sample statistics that we have basic information
 about our sample. In above example, the mean Combined fuel consumption
 is 10.906 L/100km, which is based on 715 non-missing observations.
@@ -447,106 +447,105 @@ hypotheses.**
     own independent mean values from Co2 tailpipe emissions they have.
     The test will be two tailed test with the alpha value of 0.05 (5%)
 
-> +H0: Mean Co2 emission 'Regular Gasoline' = Mean Co2 Emission 'Premium
-> Gasoline'
->
-> +H1: Mean Co2 Emission 'Regular Gasoline' != Mean Co2 Emission
-> 'Premium Gasoline'
->
-> Let's see our SPSS results below for independent t-test.
->
-> <img src="./images/SPSSResult.png" alt="" width="6.291666666666667in" height="1.9166666666666667in"/>
->
-> We can see that we have sample population of **386** observations for
-> Fuel type **'Premium Gasoline'** and sample population of **311**
-> observations for fuel type '**Regular Gasoline**'. The mean value for
-> 'Regular Gasoline' type is **230.85**(in grams/km) also the mean value
-> of 'Premium Gasoline' is **276.33**(in grams/km). Now, we will look at
-> the variances for choosing which test we should use for this
-> hypothesis (Welch's test or two sample t-test) we decide this by using
-> Levene's test.
->
-> Independent t-test hypothesis:
->
-> Let's describe our Levene's Test 19.321/3.721
->
-> +H0: Variance of Co2 Emission For 'Regular Gasoline' = Variance of Co2
-> Emission for 'Premium Gasoline'
->
-> +H1: Variance of Co2 Emission For 'Regular Gasoline' != Variance of
-> Co2 Emission for 'Premium Gasoline'
->
-> We have significance level of Alpha = 0.05 and as we can see from our
-> picture above in the "Levene's test for equality of variances" column
-> we have **0.358 of significance**. Our **P (0.358)** value \> Alpha
-> (0.05).
->
-> For the F test the results from the table is approximately **F*0.05
-> ***(385,310) = **1.023** and the **F value** is **0.846.** We can
-> understand that **F\< F*0.05 ***(385,310) meaning that we will use two
-> sample t-test.
->
-> From this statistical observation we do not reject the null
-> hypothesis. In other words, we assume our fuel types has the equal
-> variances.
->
-> For the independent samples t-test let us see if \|t\|\>t*0.05* (695)
-> where t = **9.477** and **t*0.05*** (695) = **1.96. We can confirm
-> that t\> t*0.05*** we reject the null hypothesis. So forth, we accept
-> the alternative hypothesis.
->
-> Let us create simple error bar with the %95 CI for Co2 emissions
-> Regarding 'Regular' and 'Premium' Gasoline
->
-><img src="./images/MeanCo2Emissions.png" alt="" width="6.291666666666667in" height="1.9166666666666667in"/>
->
-> **We can see emissions for Regular gasoline are lower than for Premium
-> gasoline. Also, we can see that bottom of the taller error bar does
-> not overlap with the top of the shorter error bar (Regular gasoline)
-> which gives us that the two groups are significantly different.**
->
-> **Summary of Fuel Consumption Ratings 2022 Analysis**
->
-> In this analysis of fuel consumption ratings from 2022, the research
-> delved into a dataset obtained from Kaggle.com. With 716 unique
-> vehicle model types post-cleansing, the data encompassed both
-> quantitative and qualitative attributes. Key features included vehicle
-> make, model, class, engine size, number of cylinders, transmission
-> type, fuel consumption ratings, CO2 emissions, and environmental
-> impact ratings (CO2 and smog).
->
-> **Primary Observations**
->
-> 1\. **Fuel Consumption:** The histogram showed combined fuel
-> consumption to be right-skewed, with urban consumption typically
-> surpassing highway consumption. This pattern was consistent across
-> different fuel types, except for Diesel which had limited data.
->
-> 2\. **CO2 Emissions:** A box plot comparison of CO2 emissions across
-> fuel types highlighted that vehicles using Premium Gasoline and Diesel
-> have almost equivalent mean CO2 emissions. However, Premium Gasoline
-> showed outliers suggesting potential higher emissions than Diesel.
->
-> 3\. **Environmental Impact:** Pie charts revealed a majority of
-> vehicles to have high CO2 emissions, especially those using Premium
-> Gasoline. Regular gasoline vehicles presented a more balanced
-> environmental impact.
->
-> 4\. **Correlation Analysis:** A strong positive correlation was found
-> between combined fuel consumption and engine size, suggesting that
-> larger engines typically consume more fuel.
->
-> 5\. **Hypothesis Testing:** The author undertook a one-sample t-test
-> and deduced that the mean combined fuel consumption was significantly
-> different from the hypothesized population mean. An independent t-test
-> between \'Regular Gasoline\' and \'Premium Gasoline\' further
-> emphasized that \'Premium Gasoline\' vehicles have significantly
-> higher CO2 emissions than their \'Regular Gasoline\' counterparts.
->
-> **Conclusions**
->
-> Given the evidence, author concluded that vehicles using Regular
-> gasoline tend to be more environmentally friendly compared to those
-> using Premium gasoline. The research also underscored the correlation
-> between engine size and fuel consumption, highlighting the
-> environmental implications of larger engines.
+ +H0: Mean Co2 emission 'Regular Gasoline' = Mean Co2 Emission 'Premium
+ Gasoline'
+
+ +H1: Mean Co2 Emission 'Regular Gasoline' != Mean Co2 Emission
+ 'Premium Gasoline'
+
+ Let's see our SPSS results below for independent t-test.
+
+ <img src="./images/SPSSResult.png" alt="" />
+
+ We can see that we have sample population of **386** observations for
+Fuel type **'Premium Gasoline'** and sample population of **311**
+ observations for fuel type '**Regular Gasoline**'. The mean value for
+'Regular Gasoline' type is **230.85**(in grams/km) also the mean value
+of 'Premium Gasoline' is **276.33**(in grams/km). Now, we will look at
+ the variances for choosing which test we should use for this
+ hypothesis (Welch's test or two sample t-test) we decide this by using
+ Levene's test.
+
+ Independent t-test hypothesis:
+
+ Let's describe our Levene's Test 19.321/3.721
+
+ +H0: Variance of Co2 Emission For 'Regular Gasoline' = Variance of Co2
+ Emission for 'Premium Gasoline'
+
+ +H1: Variance of Co2 Emission For 'Regular Gasoline' != Variance of
+ Co2 Emission for 'Premium Gasoline'
+
+ We have significance level of Alpha = 0.05 and as we can see from our
+ picture above in the "Levene's test for equality of variances" column
+ we have **0.358 of significance**. Our **P (0.358)** value \> Alpha
+ (0.05).
+ For the F test the results from the table is approximately **F*0.05
+ ***(385,310) = **1.023** and the **F value** is **0.846.** We can
+ understand that **F\< F*0.05 ***(385,310) meaning that we will use two
+ sample t-test.
+
+ From this statistical observation we do not reject the null
+ hypothesis. In other words, we assume our fuel types has the equal
+ variances.
+
+ For the independent samples t-test let us see if \|t\|\>t*0.05* (695)
+ where t = **9.477** and **t*0.05*** (695) = **1.96. We can confirm
+ that t\> t*0.05*** we reject the null hypothesis. So forth, we accept
+ the alternative hypothesis.
+
+ Let us create simple error bar with the %95 CI for Co2 emissions
+ Regarding 'Regular' and 'Premium' Gasoline
+
+<img src="./images/MeanCo2Emissions.png" alt="" />
+
+ **We can see emissions for Regular gasoline are lower than for Premium
+ gasoline. Also, we can see that bottom of the taller error bar does
+ not overlap with the top of the shorter error bar (Regular gasoline)
+ which gives us that the two groups are significantly different.**
+
+ **Summary of Fuel Consumption Ratings 2022 Analysis**
+
+ In this analysis of fuel consumption ratings from 2022, the research
+ delved into a dataset obtained from Kaggle.com. With 716 unique
+ vehicle model types post-cleansing, the data encompassed both
+ quantitative and qualitative attributes. Key features included vehicle
+ make, model, class, engine size, number of cylinders, transmission
+ type, fuel consumption ratings, CO2 emissions, and environmental
+ impact ratings (CO2 and smog).
+
+ **Primary Observations**
+
+ 1\. **Fuel Consumption:** The histogram showed combined fuel
+ consumption to be right-skewed, with urban consumption typically
+ surpassing highway consumption. This pattern was consistent across
+ different fuel types, except for Diesel which had limited data.
+
+ 2\. **CO2 Emissions:** A box plot comparison of CO2 emissions across
+ fuel types highlighted that vehicles using Premium Gasoline and Diesel
+ have almost equivalent mean CO2 emissions. However, Premium Gasoline
+ showed outliers suggesting potential higher emissions than Diesel.
+
+ 3\. **Environmental Impact:** Pie charts revealed a majority of
+ vehicles to have high CO2 emissions, especially those using Premium
+ Gasoline. Regular gasoline vehicles presented a more balanced
+ environmental impact.
+
+ 4\. **Correlation Analysis:** A strong positive correlation was found
+ between combined fuel consumption and engine size, suggesting that
+ larger engines typically consume more fuel.
+
+ 5\. **Hypothesis Testing:** The author undertook a one-sample t-test
+ and deduced that the mean combined fuel consumption was significantly
+ different from the hypothesized population mean. An independent t-test
+ between \'Regular Gasoline\' and \'Premium Gasoline\' further
+ emphasized that \'Premium Gasoline\' vehicles have significantly
+ higher CO2 emissions than their \'Regular Gasoline\' counterparts.
+
+ **Conclusions**
+
+ Given the evidence, author concluded that vehicles using Regular
+ gasoline tend to be more environmentally friendly compared to those
+ using Premium gasoline. The research also underscored the correlation
+ between engine size and fuel consumption, highlighting the
+ environmental implications of larger engines.
