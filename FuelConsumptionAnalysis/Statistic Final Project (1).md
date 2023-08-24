@@ -15,7 +15,8 @@ I Have obtained our data from "Kaggle.com". Data has quantitative and
 qualitative data. We have downloaded the .csv file and cleansed the data
 such as deleting duplicate values using excel, below there is the
 previous version of the data that is not cleaned you can see it as the
-excel version.<img src="./images/sourceData.png" alt=""/>
+excel version.
+<img src="./images/sourceData.png" alt=""/>
 
 We have 716 unique values in column "Model" to comply with project
 requirements.
@@ -142,7 +143,7 @@ because it is not at a constant speed.
 **We assume this information is correct depending on our Histograms
 regarding our dataset.**
 
-  <img src="./images/urbanconsumptionANDhighway.png" alt="Urban Consumption and highway for regular gasoline" /> <img src="./images/urbanConsumptionANDhighway2.png" alt="Description of Image" />
+<img src="./images/urbanconsumptionANDhighway.png" alt="Urban Consumption and highway for regular gasoline" /> <img src="./images/urbanConsumptionANDhighway2.png" alt="Description of Image" />
 
 
 As we can see in the above. Highway consumption have 8.6 average
@@ -187,7 +188,8 @@ Urban(city) consumptions are higher than Highway consumptions
  regarding Fuel Type's.
 
 Let us Compare Fuel Type's by their Co2 Emissions using box
-plot<img src="./images/Fuel Type’s by their Co2 Emissions.png" alt="" />
+plot
+<img src="./images/Fuel Type’s by their Co2 Emissions.png" alt="" />
 
 1.  **Comparing:**
 
@@ -259,7 +261,8 @@ understand that Vehicles using Premium Gas have bad ratings overall, but
 we can see visual data showing us that 32.81 percent which is the
 minority have a "Normal" rating, which means there are Co2 emissions
 that we can consider not so bad, regardless of engine
-size.<img src="./images/pieChartRegularGasoline.png" alt="" />
+size.
+<img src="./images/pieChartRegularGasoline.png" alt="" />
 
 Regarding vehicles that use Regular gasoline, our Co2 Ratings show us
 that the Majority of 43.36% percent is "Normal". It is followed by a
@@ -389,7 +392,9 @@ IBM SPSS. This will be conducting a two tailed with the alpha value of
 
 Before we make sample t-test let us create a histogram of the data to
 get an idea of the distribution, and to see if our hypothesized mean is
-near our sample mean.<img src="./images/oneSampleTtest.png" alt=""/>
+near our sample mean.
+
+<img src="./images/oneSampleTtest.png" alt=""/>
 
 From the histogram, we can see that combined consumption is relatively
 symmetrically distributed about the mean, though there is a slightly
@@ -404,6 +409,7 @@ H0: Combined Fuel Consumption = 9.44 L/km
 H1: Combined Fuel Consumption != 9.44 L/km
 
 <img src="./images/oneSampleStatistics.png" alt="" />
+
 We can see from One-sample statistics that we have basic information
 about our sample. In above example, the mean Combined fuel consumption
 is 10.906 L/100km, which is based on 715 non-missing observations.
