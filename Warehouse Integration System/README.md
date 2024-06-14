@@ -39,12 +39,12 @@ The SSIS package automates the ELT process, consisting of control flow tasks and
 ### Control Flow
 The control flow manages the execution and sequencing of tasks, ensuring that the ELT process follows the desired sequence and dependencies.
 
-![Control Flow](images/ControlFlow.png)
+<img src="./Pictures/ELT(AdventureWorks To DBCenter) (Dimensional tables).png" alt="My Image">
 
 ### Data Flow
-The data flow tasks handle the movement and transformation of data from source to destination.
+The data flow tasks handle the movement and transformation of data from source to destination. Example of 1:
 
-![Data Flow](images/DataFlow.png)
+<img src="./Pictures/Data Flow.png" alt="My Image">
 
 ### Staging Area
 The staging area is an intermediate storage area where data is temporarily stored during the ELT process. It helps in data validation, cleansing, and applying necessary transformations before loading the data into its final tables.
@@ -56,7 +56,8 @@ The staging area is an intermediate storage area where data is temporarily store
 ### Temporary Tables and Views
 Temporary tables are created to stage and store data during the ELT process. Views are created to consolidate data from multiple databases or sources.
 
-![Temporary Tables and Views](images/TempTablesViews.png)
+<img src="./Pictures/Temp Creation.png" alt="My Image">
+<img src="./Pictures/Views.png" alt="My Image">
 
 ### Stored Procedures
 Stored procedures encapsulate and execute specific logic or calculations on the data. They enhance the functionality and flexibility of the data warehouse for reporting and analysis purposes.
