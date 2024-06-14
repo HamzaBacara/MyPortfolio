@@ -79,4 +79,4 @@ Stored procedures encapsulate and execute specific logic or calculations on the 
 <img src="./Pictures/FactFinance.png" alt="My Image">
 
 ### Integration Result on Power BI
-<img src="./images/sales BI.png" alt="My Image">
+<img src="./Pictures/sales BI.png" alt="My Image">
