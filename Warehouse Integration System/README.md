@@ -15,7 +15,8 @@ The dimensional model is a data modeling technique used in data warehousing. It 
 
 ### ERD
 ### FactFinance Dimensional Model
-<img src="./Pictures/InternetSales.png" alt="My Image">
+<img src="./Pictures/FactFinance.png" alt="My Image">
+
 This image illustrates the dimensional model for the FactFinance table in the data warehouse. The model is structured to support the analysis of financial data across various dimensions.
 
 - FactFinance: The central fact table storing financial metrics, such as FinanceKey, DateKey, OrganizationKey, DepartmentGroupKey, ScenarioKey, AccountKey, Amount, and Date.
@@ -26,8 +27,9 @@ This image illustrates the dimensional model for the FactFinance table in the da
 - DimScenario: A dimension table that describes different financial scenarios, connected to FactFinance via ScenarioKey. It includes the ScenarioName attribute.
 - DimCurrency: A dimension table containing currency details, connected to DimOrganization via CurrencyKey. It includes attributes like CurrencyAlternateKey and CurrencyName.
 
-### FactFinance Dimensional Model
-<img src="./Pictures/FactFinance.png" alt="My Image">
+### FactInternetSales Dimensional Model
+<img src="./Pictures/InternetSales.png" alt="My Image">
+
 This image depicts the dimensional model for the FactInternetSales table in the data warehouse. This model is designed to facilitate the analysis of internet sales data across multiple dimensions.
 
 - FactInternetSales: The central fact table capturing internet sales data, including attributes like OrderDateKey, DueDateKey, ShipDateKey, CustomerKey, ProductKey, 
