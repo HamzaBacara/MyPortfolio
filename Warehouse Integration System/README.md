@@ -39,13 +39,35 @@ The SSIS package automates the ELT process, consisting of control flow tasks and
 ### Control Flow
 The control flow manages the execution and sequencing of tasks, ensuring that the ELT process follows the desired sequence and dependencies.
 ### Sequence of Tasks
-1. **SQL Task (Create Temp Tables)**: Outside the For Each Loop container.
-2. **Truncate Temp Tables**: Inside the For Each Loop container.
-3. **Transfer Data to Temp Tables**: Inside the For Each Loop container.
-4. **Exchange Temp Tables with Original Tables**: Inside the For Each Loop container.
-5. **SQL Task (Add Constraints to Temp Tables)**: Inside the For Each Loop container.
-6. **SQL Task (Cleaning Null Values)**: Inside the For Each Loop container.
-7. **Database Integrity Check**: After the For Each Loop container.
+# Control Flow Documentation for SSIS Package
+
+The control flow in the SSIS package manages the sequence and execution of tasks within the ELT process. Below is a detailed breakdown of the key tasks and their placements within the control flow:
+
+## Tasks Overview
+
+1. **SQL Task: Create Temp Tables**
+   - **Description**: This task is responsible for creating temporary tables that will be used for staging data during the ELT process. These tables are created once, before the iteration over multiple data sets begins.
+
+2. **Truncate Temp Tables**
+   - **Description**: This task truncates the temporary tables to ensure they are empty before loading new data. It is executed at the start of each iteration within the loop, ensuring that each data set is processed in a clean state.
+
+3. **Transfer Data to Temp Tables**
+   - **Description**: This task transfers data from the source to the temporary tables. It is performed for each data set during the loop iteration, populating the temporary tables with the extracted data.
+
+4. **Exchange Temp Tables with Original Tables**
+   - **Description**: This task replaces the original tables with the data from the temporary tables. This ensures that the data in the original tables is updated with the newly processed data from the temporary tables.
+
+5. **SQL Task: Add Constraints to Temp Tables**
+   - **Description**: This task adds necessary constraints to the temporary tables, such as primary keys and foreign keys, to maintain data integrity and enforce relational rules.
+
+6. **SQL Task: Cleaning Null Values**
+   - **Description**: This task cleans null values in the temporary tables by replacing them with default values or handling them according to the business logic. It ensures data quality and consistency before the data is moved to the final destination tables.
+
+7. **Database Integrity Check**
+   - **Description**: This task performs a comprehensive integrity check on the database after all iterations of the loop are completed. It ensures that all data transformations and loads have been conducted accurately and that the database is in a consistent state.
+
+By organizing these tasks within and outside the For Each Loop container, the control flow ensures a structured, efficient, and reliable ELT process. This approach optimizes resource utilization, maintains data integrity, and supports scalable data processing within the SSIS package.
+
 <img src="./Pictures/ELT(AdventureWorks To DBCenter) (Dimensional tables).png" alt="My Image">
 
 ### Data Flow
