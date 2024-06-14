@@ -45,6 +45,8 @@ This image depicts the dimensional model for the FactInternetSales table in the 
 - DimPromotion: A dimension table that includes promotion details, connected to FactInternetSales via PromotionKey. It includes attributes like EnglishPromotionName and SpanishPromotionName.
 - DimEmployee: A dimension table containing employee details, connected to DimSalesTerritory via SalesTerritoryKey. It includes attributes like EmployeeNationalIDAlternateKey, ParentEmployeeKey, and SalesTerritoryKey.
 
+**Summary** In both ERDs, the star schema methodology is used, centralizing the fact tables (FactFinance and FactInternetSales) and connecting them with related dimension tables. This design supports efficient querying, data analysis, and reporting, making it ideal for data warehousing environments. The relationships between entities ensure data integrity and provide a structured way to analyze complex business metrics.
+
 ### ELT Process
 The Extract, Load, Transform (ELT) process is used to populate the data warehouse.
 - **Extraction**: Involves extracting data from the AdventureWorks database and flat files.
