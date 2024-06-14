@@ -70,11 +70,11 @@ SSIS allows you to split your data flow into multiple paths and execute them in 
 ## SSIS Package Structure
 The SSIS package automates the ELT process, consisting of control flow tasks and data flow tasks that orchestrate the extraction, loading, and transformation of data.
 
-### Control Flow
-The control flow manages the execution and sequencing of tasks, ensuring that the ELT process follows the desired sequence and dependencies.
-### Sequence of Tasks
-# Control Flow Documentation for SSIS Package
 
+### Sequence of Tasks
+<img src="./Pictures/ELT(AdventureWorks To DBCenter) (Dimensional tables).png" alt="My Image">
+
+### Control Flow
 The control flow in the SSIS package manages the sequence and execution of tasks within the ELT process. Below is a detailed breakdown of the key tasks and their placements within the control flow:
 
 ## Tasks Overview
@@ -102,7 +102,7 @@ The control flow in the SSIS package manages the sequence and execution of tasks
 
 By organizing these tasks within and outside the For Each Loop container, the control flow ensures a structured, efficient, and reliable ELT process. This approach optimizes resource utilization, maintains data integrity, and supports scalable data processing within the SSIS package.
 
-<img src="./Pictures/ELT(AdventureWorks To DBCenter) (Dimensional tables).png" alt="My Image">
+
 
 ### Data Flow
 The data flow tasks handle the movement and transformation of data from source to destination. Example of 1:
