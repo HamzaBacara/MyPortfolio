@@ -62,7 +62,7 @@ Temporary tables are created to stage and store data during the ELT process. Vie
 ### Stored Procedures
 Stored procedures encapsulate and execute specific logic or calculations on the data. They enhance the functionality and flexibility of the data warehouse for reporting and analysis purposes.
 
-![Stored Procedures List](images/ProcedureList.png)
+<img src="./Pictures/ProcedureList.png" alt="My Image">
 
 ## Example of SSIS Package Execution
 ### Sequence of Tasks
@@ -74,21 +74,9 @@ Stored procedures encapsulate and execute specific logic or calculations on the 
 6. **SQL Task (Cleaning Null Values)**: Inside the For Each Loop container.
 7. **Database Integrity Check**: After the For Each Loop container.
 
-### Detailed View of Data Flow Tasks
-![ELT (AdventureWorks to DBCenter) Dimensional tables](images/ELT-Dimensional.png)
-![ELT (AdventureWorks to AW_Italy DB) Fact tables](images/ELT-Fact.png)
+### ERD
+<img src="./Pictures/InternetSales.png" alt="My Image">
+<img src="./Pictures/FactFinance.png" alt="My Image">
 
-## Sales Trend Analysis Examples
-### Monthly Sales Trend
-```sql
-SELECT
-    DATEPART(MONTH, OrderDate) AS SalesMonth,
-    SUM(ListPrice) AS TotalSalesAmount
-FROM
-    AW_Italy.dbo.FactInternetSales
-WHERE
-    SalesTerritoryGroup = 'Europe'
-GROUP BY
-    DATEPART(MONTH, OrderDate)
-ORDER BY
-    DATEPART(MONTH, OrderDate);
+### Integration Result on Power BI
+<img src="./images/sales BI.png" alt="My Image">
