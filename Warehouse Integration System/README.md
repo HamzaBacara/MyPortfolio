@@ -78,33 +78,35 @@ Stored procedures encapsulate and execute specific logic or calculations on the 
 <img src="./Pictures/InternetSales.png" alt="My Image">
 This image illustrates the dimensional model for the FactFinance table in the data warehouse. The model is structured to support the analysis of financial data across various dimensions.
 
-FactFinance: The central fact table storing financial metrics, such as FinanceKey, DateKey, OrganizationKey, DepartmentGroupKey, ScenarioKey, AccountKey, Amount, and Date.
-DimAccount: A dimension table containing account details, connected to FactFinance via AccountKey. It includes attributes such as AccountDescription, AccountType, Operator, CustomMembers, and ValueType.
-DimDate: A dimension table containing date-related attributes, connected to FactFinance via DateKey. It includes attributes like FullDateAlternateKey, DayNumberOfWeek, and various month and year-related fields.
-DimDepartmentGroup: A dimension table detailing department groups, connected to FactFinance via DepartmentGroupKey. It includes attributes like DepartmentGroupName and ParentDepartmentGroupKey.
-DimOrganization: A dimension table providing organizational information, connected to FactFinance via OrganizationKey. It includes attributes like OrganizationName, ParentOrganizationKey, and PercentageOfOwnership.
-DimScenario: A dimension table that describes different financial scenarios, connected to FactFinance via ScenarioKey. It includes the ScenarioName attribute.
-DimCurrency: A dimension table containing currency details, connected to DimOrganization via CurrencyKey. It includes attributes like CurrencyAlternateKey and CurrencyName.
+- FactFinance: The central fact table storing financial metrics, such as FinanceKey, DateKey, OrganizationKey, DepartmentGroupKey, ScenarioKey, AccountKey, Amount, and Date.
+- DimAccount: A dimension table containing account details, connected to FactFinance via AccountKey. It includes attributes such as AccountDescription, AccountType, Operator, CustomMembers, and ValueType.
+- DimDate: A dimension table containing date-related attributes, connected to FactFinance via DateKey. It includes attributes like FullDateAlternateKey, DayNumberOfWeek, and various month and year-related fields.
+- DimDepartmentGroup: A dimension table detailing department groups, connected to FactFinance via DepartmentGroupKey. It includes attributes like DepartmentGroupName and ParentDepartmentGroupKey.
+- DimOrganization: A dimension table providing organizational information, connected to FactFinance via OrganizationKey. It includes attributes like OrganizationName, ParentOrganizationKey, and PercentageOfOwnership.
+- DimScenario: A dimension table that describes different financial scenarios, connected to FactFinance via ScenarioKey. It includes the ScenarioName attribute.
+- DimCurrency: A dimension table containing currency details, connected to DimOrganization via CurrencyKey. It includes attributes like CurrencyAlternateKey and CurrencyName.
 
 ### FactFinance Dimensional Model
 <img src="./Pictures/FactFinance.png" alt="My Image">
 This image depicts the dimensional model for the FactInternetSales table in the data warehouse. This model is designed to facilitate the analysis of internet sales data across multiple dimensions.
 
-FactInternetSales: The central fact table capturing internet sales data, including attributes like OrderDateKey, DueDateKey, ShipDateKey, CustomerKey, ProductKey, SalesTerritoryKey, OrderQuantity, and various pricing and shipping details.
-DimProduct: A dimension table with product details, connected to FactInternetSales via ProductKey. It includes attributes such as ProductAlternateKey, WeightUnitMeasureCode, and various product names.
-DimProductSubcategory: A dimension table detailing product subcategories, connected to DimProduct via ProductSubcategoryKey. It includes attributes like EnglishProductSubcategoryName and SpanishProductSubcategoryName.
-DimProductCategory: A dimension table containing product categories, connected to DimProductSubcategory via ProductCategoryKey. It includes attributes like EnglishProductCategoryName and SpanishProductCategoryName.
-DimCurrency: A dimension table with currency details, connected to FactInternetSales via CurrencyKey. It includes attributes like CurrencyAlternateKey and CurrencyName.
-DimOrganization: A dimension table providing organizational information, connected to FactInternetSales via OrganizationKey. It includes attributes like OrganizationName, ParentOrganizationKey, and PercentageOfOwnership.
-DimDate: A dimension table containing date-related attributes, connected to FactInternetSales via multiple date keys (OrderDateKey, DueDateKey, ShipDateKey). It includes attributes like FullDateAlternateKey, DayNumberOfWeek, and various month and year-related fields.
-DimSalesTerritory: A dimension table describing sales territories, connected to FactInternetSales via SalesTerritoryKey. It includes attributes like SalesTerritoryRegion, SalesTerritoryCountry, and SalesTerritoryGroup.
-DimCustomer: A dimension table containing customer information, connected to FactInternetSales via CustomerKey. It includes attributes like GeographyKey, CustomerAlternateKey, and various personal details (e.g., FirstName, LastName, BirthDate).
-DimGeography: A dimension table providing geographical data, connected to DimCustomer via GeographyKey. It includes attributes such as City, StateProvinceCode, and CountryRegionCode.
-DimReseller: A dimension table containing reseller information, connected to DimGeography via GeographyKey. It includes attributes such as ResellerAlternateKey, Phone, and BusinessType.
-DimPromotion: A dimension table that includes promotion details, connected to FactInternetSales via PromotionKey. It includes attributes like EnglishPromotionName and SpanishPromotionName.
-DimEmployee: A dimension table containing employee details, connected to DimSalesTerritory via SalesTerritoryKey. It includes attributes like EmployeeNationalIDAlternateKey, ParentEmployeeKey, and SalesTerritoryKey.
+- FactInternetSales: The central fact table capturing internet sales data, including attributes like OrderDateKey, DueDateKey, ShipDateKey, CustomerKey, ProductKey, 
+- SalesTerritoryKey, OrderQuantity, and various pricing and shipping details.
+- DimProduct: A dimension table with product details, connected to FactInternetSales via ProductKey. It includes attributes such as ProductAlternateKey, WeightUnitMeasureCode, and various product names.
+- DimProductSubcategory: A dimension table detailing product subcategories, connected to DimProduct via ProductSubcategoryKey. It includes attributes like EnglishProductSubcategoryName and SpanishProductSubcategoryName.
+- DimProductCategory: A dimension table containing product categories, connected to DimProductSubcategory via ProductCategoryKey. It includes attributes like EnglishProductCategoryName and SpanishProductCategoryName.
+- DimCurrency: A dimension table with currency details, connected to FactInternetSales via CurrencyKey. It includes attributes like CurrencyAlternateKey and CurrencyName.
+- DimOrganization: A dimension table providing organizational information, connected to FactInternetSales via OrganizationKey. It includes attributes like OrganizationName, ParentOrganizationKey, and PercentageOfOwnership.
+- DimDate: A dimension table containing date-related attributes, connected to FactInternetSales via multiple date keys (OrderDateKey, DueDateKey, ShipDateKey). It includes attributes like FullDateAlternateKey, DayNumberOfWeek, and various month and year-related fields.
+- DimSalesTerritory: A dimension table describing sales territories, connected to FactInternetSales via SalesTerritoryKey. It includes attributes like SalesTerritoryRegion, SalesTerritoryCountry, and SalesTerritoryGroup.
+- DimCustomer: A dimension table containing customer information, connected to FactInternetSales via CustomerKey. It includes attributes like GeographyKey, CustomerAlternateKey, and various personal details (e.g., FirstName, LastName, BirthDate).
+- DimGeography: A dimension table providing geographical data, connected to DimCustomer via GeographyKey. It includes attributes such as City, StateProvinceCode, and CountryRegionCode.
+- DimReseller: A dimension table containing reseller information, connected to DimGeography via GeographyKey. It includes attributes such as ResellerAlternateKey, Phone, and BusinessType.
+- DimPromotion: A dimension table that includes promotion details, connected to FactInternetSales via PromotionKey. It includes attributes like EnglishPromotionName and SpanishPromotionName.
+- DimEmployee: A dimension table containing employee details, connected to DimSalesTerritory via SalesTerritoryKey. It includes attributes like EmployeeNationalIDAlternateKey, ParentEmployeeKey, and SalesTerritoryKey.
 
 
 ### Integration Result on Power BI
 <img src="./Pictures/sales BI.png" alt="My Image">
-Based on the integration results from the ELT process, we can directly connect to Power BI to visualize the data and derive actionable insights. Power BI provides an intuitive platform for creating interactive reports and dashboards that can help stakeholders understand key performance indicators (KPIs) and trends in the data.
+
+- The integration of SSIS and the data warehouse allows seamless connectivity with Power BI, enabling the creation of comprehensive dashboards like the KPI Controller. These visualizations offer valuable insights into sales performance, cost management, and market trends, thereby supporting data-driven decision-making processes within the organization.
